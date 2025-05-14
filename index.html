@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <title>My Homework</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    
+    <!-- this is my homework done in HTML/CSS (JS) only -->
+    <nav>
+        <ul class="nav-links">
+            <li>About</li>
+            <li>Workouts</li>
+            <li class="active-nav">Exercices</li>
+            <li id="clearCacheBtn">Help</li>
+        </ul>
+    </nav>
+
+    <div class="content-group">
+
+        <h1>Exercise Guides and Videos</h1>
+        <h2>Explore by Muscle Groups</h2>
+
+        <div class="muscle-group">
+
+
+            <div class="muscle-group-item"><img class="svg-icon"  src="https://storage.googleapis.com/poc_frontend/svg_icon_fill.svg" alt="Quadriceps" >
+            <a href="?group=quadriceps"><p>Quadriceps</p></a>
+            </div>
+            
+            <div class="muscle-group-item"><img class="svg-icon"  src="https://storage.googleapis.com/poc_frontend/svg_icon_fill.svg" alt="Abs" >
+            <a href="?group=abs"><p>Abs</p></a>
+            </div>
+
+            <div class="muscle-group-item"><img class="svg-icon"  src="https://storage.googleapis.com/poc_frontend/svg_icon_fill.svg" alt="Shoulders" >
+            <a href="?group=shoulders"><p>Shoulders</p> </a>
+            </div>
+
+            <div class="muscle-group-item"><img class="svg-icon"  src="https://storage.googleapis.com/poc_frontend/svg_icon_fill.svg" alt="Hamstrings" >
+             <a href="?group=hamstrings"><p>Hamstrings</p></a>
+            </div>
+
+            <div class="muscle-group-item"><img class="svg-icon"  src="https://storage.googleapis.com/poc_frontend/svg_icon_fill.svg" alt="Chest" >
+            <a href="?group=chest"><p>Chest</p></a>                
+            </div>
+
+            <div class="muscle-group-item"><img class="svg-icon"  src="https://storage.googleapis.com/poc_frontend/svg_icon_fill.svg" alt="Back" >
+            <a href="?group=back"><p>Back</p></a>
+            </div>
+
+            <div class="muscle-group-item"><img class="svg-icon"  src="https://storage.googleapis.com/poc_frontend/svg_icon_fill.svg" alt="Glutes" >
+            <a href="?group=glutes"><p>Glutes</p></a>
+            </div>
+
+            <div class="muscle-group-item"><img class="svg-icon"  src="https://storage.googleapis.com/poc_frontend/svg_icon_fill.svg" alt="Biceps" >
+            <a href="?group=biceps"><p>Biceps</p></a>    
+             </div>
+
+            <div class="muscle-group-item"><img class="svg-icon"  src="https://storage.googleapis.com/poc_frontend/svg_icon_fill.svg" alt="Calves" >
+            <a href="?group=calves"><p>Calves</p></a>   
+             </div>
+
+            <div class="muscle-group-item"><img class="svg-icon"  src="https://storage.googleapis.com/poc_frontend/svg_icon_fill.svg" alt="Triceps" >
+            <a href="?group=triceps"><p>Triceps</p></a>    
+            </div>
+
+            <div class="muscle-group-item"><img class="svg-icon"  src="https://storage.googleapis.com/poc_frontend/svg_icon_fill.svg" alt="Lower-back" >
+            <a href="?group=lower-back"><p>Lower-back</p></a> 
+            </div>
+
+            <div class="muscle-group-item"><img class="svg-icon"  src="https://storage.googleapis.com/poc_frontend/svg_icon_fill.svg" alt="Abductors" >
+            <a href="?group=abductors"><p>Abductors</p></a>    
+            </div>
+
+            <div class="muscle-group-item"><img class="svg-icon"  src="https://storage.googleapis.com/poc_frontend/svg_icon_fill.svg" alt="Adductors" >
+            <a href="?group=adductors"><p>Adductors</p></a>    
+            </div>
+
+            <div class="muscle-group-item"><img class="svg-icon"  src="https://storage.googleapis.com/poc_frontend/svg_icon_fill.svg" alt="Forearms" >
+            <a href="?group=forearms"><p>Forearms</p></a>    
+             </div>
+
+            <div class="muscle-group-item"><img class="svg-icon"  src="https://storage.googleapis.com/poc_frontend/svg_icon_fill.svg" alt="Trapezius" >
+            <a href="?group=trapezius"><p>Trapezius</p></a>
+            </div>
+                
+            
+
+        </div>
+
+        <h2>Exercises</h2>
+
+        <!-- this will be rendered dynamically by JS -->
+        <div id="fitList"></div>
+
+    </div>
+
+    <script type="module" src="/js/data.js"></script>
+
+</body>
+</html>
